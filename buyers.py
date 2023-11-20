@@ -10,8 +10,8 @@ import database
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes,ConversationHandler,MessageHandler,filters,CallbackContext
 
-TOKEN: Final = '6342676141:AAGP1LeG5aLkFaXTHOwPFaFtLtf1wCk4ZaQ'
-BOt_USERNAME : Final = '@Addis_market_bot'
+TOKEN: Final = ''
+BOt_USERNAME : Final = ''
 bot = Bot(TOKEN)
 print('Starting up bot...')
 
