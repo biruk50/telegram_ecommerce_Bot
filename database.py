@@ -3,6 +3,7 @@ conn = sqlite3.connect('commerce.db')
 
 # Create cursor
 c = conn.cursor()
+'''after running it for a first time(creating the 2 tables).comment it out like done below,if not it will prompt you an erroring saying the tables are already created'''
 '''
 # Create table
 c.execute("""CREATE TABLE customers(
