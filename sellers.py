@@ -8,8 +8,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes,ConversationH
 from telegram import Bot, InputMediaPhoto
 
 
-TOKEN: Final = '6007793381:AAG23oNb9zBsho7de-m_yzgdTumWB1N3bdI'
-BOt_USERNAME : Final = '@beta_market_bot'
+TOKEN: Final = ''
+BOt_USERNAME : Final = ''
 print('Starting up bot...')
 
 # Enable logging
