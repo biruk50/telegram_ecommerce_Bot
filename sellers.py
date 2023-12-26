@@ -167,9 +167,9 @@ async def ANSWER9(update: Update, context: ContextTypes.DEFAULT_TYPE)-> int:
     message_text = f'Product Type: {product_type}\nPrice: {price}\nSeller: {user_name}\nPhone Number: {phone_number}\nStatus: {status}\nDescription: {description}'
     photos = [InputMediaPhoto(photo.file_id) for photo in [photo_file1, photo_file2, photo_file3]]
 
-    await bot.send_message(chat_id='@Addis_Market_channel', text=message_text)
-    await bot.send_media_group(chat_id='@Addis_Market_channel', media=photos)
-    await update.message.reply_text(f'Your product has successfully been add to our database.\nYou can share the link of your product by going to https://t.me/Addis_Market_channel and coping the post link')
+    await bot.send_message(chat_id='', text=message_text)#add channel id
+    await bot.send_media_group(chat_id='', media=photos)#add channel id
+    await update.message.reply_text(f'Your product has successfully been add to our database.\nYou can share the link of your product by going to the channel and coping the post link')
     return ConversationHandler.END
 
 async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE)-> int:
