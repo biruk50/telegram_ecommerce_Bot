@@ -154,7 +154,7 @@ async def ANSWER_5(update: Update, context: ContextTypes.DEFAULT_TYPE)-> int:
                     await bot.send_photo(chat_id=update.message.chat_id, photo=photo2)
                 if record[9] != None:
                     await bot.send_photo(chat_id=update.message.chat_id, photo=photo3)
-    await update.message.reply_text(f'See you soon.\nIf you have an feedback on how we can improve tell us on our channel at https://t.me/Addis_Market_channel \nand our group at https://t.me/Addis_Market_Group')
+    await update.message.reply_text(f'See you soon.\nIf you have an feedback on how we can improve tell us on our channel at channel \nand our group at ')
     return ConversationHandler.END
 
 async def cancel(update, context):
